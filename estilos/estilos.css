@@ -1,0 +1,482 @@
+@font-face{
+	font-family: 'franklin';
+	src:url("../fuentes/franklin-gothic-cufonfonts/Franklin-Gothic-Book-Regular.ttf");
+	font-weight:normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Angsana';
+	src:url("../fuentes/Angsana_New/angsa.ttf");
+	font-weight:normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'franklin';
+	src:url("../fuentes/franklin-gothic-cufonfonts/FranklinGothic.ttf");
+	font-weight:bold;
+	font-style:bold;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 40px;
+}
+
+.navbar-logo img {
+    max-width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item,
+.nav-link {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.offcanvas {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.offcanvas-header,
+.offcanvas-body {
+    padding: 1rem;
+}
+
+
+.navbar ul li a{
+		
+      font-size: clamp(0.75rem, 5vw, 1.75rem) ;		  
+    }
+
+.nav-link{
+	 font-family: "franklin", sans-serif;
+		 font-weight: normal;
+}
+
+.hero-header {
+    background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1)), url("../imagenes/Home_Landing_Fondo1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.fondoindex {
+   background-color: #184666;
+   border-radius: 80px;
+}
+
+
+.fondocuerpo2centro{
+background-color: black;
+border-radius: 30px;
+-webkit-box-shadow: 6px 7px 32px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 7px 32px -11px rgba(0,0,0,0.75);
+box-shadow: 6px 7px 32px -11px rgba(0,0,0,0.75);
+}
+.hero-footer {    
+	background:#184666;
+	font-size: clamp(0.188rem, 5vw, 1.188rem);
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+}
+.textobotonesempr{
+	color:white;
+	font-size: clamp(0.375rem, 5vw, 1.375rem) ;
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+}
+.titulodesemprendimientos{
+	color:black;
+	font-size: clamp(0.5rem, 5vw, 1.5rem) ;
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+}
+.desemprendimientos{
+	color:black;
+	font-size: clamp(0.25rem, 5vw, 1.25rem) ;
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+}
+
+.numeroemprendi{
+	font-size: clamp(8.25rem, 5vw, 11.25rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: white;	
+
+}
+
+.fondoemprendimientos{
+	background:#184666;
+}
+
+.tipoemprendi{
+	font-size: clamp(0.875rem, 5vw, 1.875rem);
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+	color: white;	
+
+}
+.tipoemprendi2{
+	font-size: clamp(1.188rem, 5vw, 2.188rem); 
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+	color: white;	
+
+}
+
+.titulo-footer{
+	color: #EF5A24;
+}
+
+.conteido-footer{
+	color: white;
+	text-decoration: none;
+}
+.botonesemprendimiento{
+	color: white; 
+	font-size: clamp(0.8rem, 5vw, 1.8rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	background-color: #184666;
+   	border-radius: 80px;
+}
+.footer {
+    margin-top: 50px; /* Ajusta este valor según sea necesario */
+}
+
+.modal-header.moda {
+    background-color: yellow; 
+}
+
+.modal-header.alimentos {
+    background-color: #F9AE3B;
+}
+
+.modal-header.asesorias {
+    background-color: rgb(175, 175, 175);
+}
+
+.modal-header.belleza {
+    background-color: rgb(197, 247, 205);
+}
+.modal-header.calzado {
+    background-color: rgb(164, 176, 245); 
+}
+
+.modal-header.higiene {
+    background-color: rgb(219, 162, 241);
+}
+
+.modal-header.mantenimiento {
+    background-color: rgb(236, 190, 190);
+}
+
+.modal-header.medicina {
+    background-color: rgb(195, 248, 195);
+}
+
+.modal-header.tecnologias {
+    background-color: rgb(245, 247, 160);
+}
+
+.modal-title{
+	font-size: 35px;
+	text-align:center;
+}
+
+#enviar{ 
+  padding: 20px; 
+  background: #F9AE3B; 
+  color: white; 
+  font-size: clamp(0.375rem, 5vw, 1.375rem);
+  font-family: "franklin", sans-serif;
+  font-weight: normal;
+  border-radius: 20px;
+} 
+#registro{ 
+	padding: 20px; 
+	background: #F9AE3B; 
+	color: white; 
+	font-size: clamp(0.375rem, 5vw, 1.375rem);
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+	border-radius: 20px;
+  } 
+.botonesindex{
+  color: white; 
+  font-size: clamp(0.625rem, 5vw, 1.625rem);
+  font-family: "franklin", sans-serif;
+  font-weight: normal;
+  background-color: #333333;
+  border-radius: 10px;
+}
+
+#nombre{
+  
+  font-size: clamp(0.25rem, 5vw, 1.25rem); 
+  font-family: "franklin", sans-serif;
+  font-weight: normal;
+  background: #E4E4E4;
+  height: 60px;
+}
+#correo{
+  
+  font-size: clamp(0.25rem, 5vw, 1.25rem); 
+  font-family: "franklin", sans-serif;
+  font-weight: normal;
+  background: #E4E4E4;
+  height: 60px;
+}
+#asunto{
+  
+  font-size: clamp(0.25rem, 5vw, 1.25rem); 
+  font-family: "franklin", sans-serif;
+  font-weight: normal;
+  background: #E4E4E4;
+  height: 60px;
+}
+#mensaje{
+  
+  font-size: clamp(0.25rem, 5vw, 1.25rem); 
+  font-family: "franklin", sans-serif;
+  font-weight: normal;
+  background: #E4E4E4; 
+}
+.texto-copy3{
+	font-size: clamp(0.4rem, 5vw, 0.813rem); 
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+	color: #184666;
+	text-align: right;
+} 
+
+.texto-paginas{
+	font-size: clamp(0.875rem, 5vw, 1.875rem);
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+	color: #184666;
+	text-align: left;
+}
+
+.texto-copy2{
+	font-size: clamp(0.438rem, 5vw, 0.938rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: #184666;
+	text-align: right;
+}
+
+.texto-haz{
+	font-size: clamp(1.063rem, 5vw, 2.063rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: #184666;
+	
+}
+.texto-haz2{
+	font-size: clamp(0.875rem, 5vw, 1.875rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color:black;
+	
+}
+
+.texto-haz3{
+	font-size: clamp(0.75rem, 5vw, 1.75rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: #184666;
+	
+}
+
+.texto-haz4{
+	font-size: clamp(0.75rem, 5vw, 1.75rem);
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+	color: #184666;
+	
+}
+.textocuerpo3{
+	font-size: clamp(3rem, 5vw, 5rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: black;	
+}
+.fondocuerpo3 {
+    background: url("../imagenes/Home Landing - Vitrina UNAD_Fondo 3.png");
+    background-repeat: no-repeat;   
+	background-position: center;
+	background-size: cover;
+}
+.vlinea{
+	border-left:2px solid black;
+}
+.vlinea2{
+	border-left:2px solid white;
+}
+.hlinea{
+	border-bottom:2px solid black;
+}
+.fondocabecera{
+	
+	 background-color: #F9AE3B;	
+}
+.fondomodulo2{
+	background-color: #E4E4E4;
+}
+.textocabecera1{
+	font-size: clamp(2.8rem, 5vw, 8rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: #184666;
+}
+
+.textonomempredimientos{
+	font-size: clamp(1rem, 5vw, 2rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: black;
+}
+.textocabeceraindex{
+	font-size: clamp(1.2rem, 5vw, 2.5rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: #184666;
+}
+.textocabeceraindex2{
+	font-size: clamp(1.5rem, 5vw, 2.5rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color:black;
+}
+.textocabecera2{
+	font-size: clamp(3.438rem, 5vw, 5.438rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	color: #184666;
+}
+.textocabecera3{
+	font-size: clamp(1.75rem, 5vw, 5.75rem);
+	font-family: "Angsana", sans-serif;
+	font-weight:normal;
+	color: #184666;
+}
+.textocabecera4{
+	font-size: clamp(0.938rem, 5vw, 3.938rem);
+	font-family: "Angsana", sans-serif;
+	font-weight: normal;
+	color: #184666;
+}
+.textocabecera5{
+	font-size: clamp(1.938rem, 5vw, 3.938rem);
+	font-family: "Angsana", sans-serif;
+	font-weight:bold;
+	color: #184666;
+}
+.logoviem{
+	background-color: #184666;
+}
+.logohaz{
+	background-color: #184666;
+	color: white;
+	font-size: clamp(2.125rem, 5vw, 3.125rem);
+	font-family: "franklin", sans-serif;
+	font-weight: normal;
+}
+.textobotonindex{
+	color: white;
+	font-size: clamp(1.875rem, 5vw, 2.875rem);
+	font-family: "franklin", sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar-logo {
+    flex: 1 1 20%; /* El logo ocupará el 20% del espacio */
+    display: flex;
+    align-items: center;
+}
+
+.offcanvas-body {
+    flex: 1 1 80%; /* El menú ocupará el 80% del espacio */
+}
+
+@media (max-width: 992px) {
+    .navbar-logo, .offcanvas-body {
+        flex: 1 1 100%; /* En pantallas pequeñas, ambos elementos ocupan el 100% */
+    }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: black; /* Color de los iconos */
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+	color: black; /* Color del texto y bordes */
+  }
+.carousel-item .d-flex {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-img {
+    width: 50%; /* Ajusta el ancho de cada imagen para que ocupe la mitad del carrusel */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+  
+.nav-pills .nav-link {
+    font-family: "franklin", sans-serif;
+    font-weight:bold;
+    font-size: clamp(2.125rem, 5vw, 3.125rem);
+  
+}
+
+.nav-pills .nav-link:not(.active) {
+    color: white;
+    background-color: #E4E4E4;
+}
+
+.nav-pills .nav-link.active {
+      color: white;
+      background-color: #333333 !important;
+    }
+
+  .nav-link.btn-1 {
+      border-top-left-radius: 40px !important;
+      border-bottom-left-radius: 40px !important;
+    }
+  .nav-link.btn-2 {
+     border-top-right-radius: 40px !important;
+     border-bottom-right-radius: 40px !important;
+    }
+
+#moda{ 
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (min-width: 992px) {
+    .hero-header {
+        margin-top: 152px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-header{
+        margin-top: 97px !important;
+    }
+}
+
